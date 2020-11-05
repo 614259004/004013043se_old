@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #343840;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.alumni-card{
+    width: 55rem;
+    background-color: #4c6c6c;
+    display: flex;
+    flex-direction: row;
+    /*align-items: center;*/
+    justify-content: center;
+    margin-left: 22% ;
+    margin-top: 1%;
+    margin-bottom: 4rem ;
+    box-shadow: .5rem .5rem 3rem  rgba(0, 0, 0, 0.37);
+}
+
+.profile-img{
+    width: 20rem;
+    height: 20rem;
+    object-fit: cover;
+}
+
+.alumni-card .name-alumni{
+    width: 70%;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ebeef8;
+}
+
+.name-alumni-info{
+    display: flex;
+    border-bottom: 2px solid #ebeef8;
+}
+
+.birthday-alumni-info{
+    display: flex;
+}
+
+.name-alumni-info h1{
+    margin-left: 6px;
+    font-weight: lighter;
+    
+}
+
+.birthday-alumni-info p{
+    margin-left: 6px;
+    font-weight: lighter;
+}
+
+.next-back-page{
+    font-size: 20px;
+    margin-left: 80%;
+    margin-top: 28px;
+}
+
+.next-back-page i{
+    color: #ebeef8;
+    margin-left: 10px;
+}
+
+.back-home{
+    color: #ebeef8;
+    margin-left: 22%;
+    margin-top: 12%;
+}
+
+.back-home a{
+    text-decoration: none;
+    color: #ebeef8;
+}

@@ -1,0 +1,104 @@
+body{
+    background-color: #e7e5d9;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+form{
+    background-color:   #71a6a6;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 8%;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+h2{
+    font-size: 35px;
+    color: #4c6c6c;
+    margin-left: 7%;
+}
+
+p{
+    color: #4c6c6c;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.name-input,.birthday-input,.login-want,.peopleidbox,.phone-input,
+.skill-input,.contack-input,.address-input,.address2,.status-input{
+    display: flex;
+    margin-left: 7%;   
+}
+
+.name-input input,.birthday-input input,
+.login-want input,.peopleidbox input,
+.phone-input input,.contack-input input,
+.address-input input,.address2 input{
+    margin-left: 10px;
+    height: 20px;
+    font-size:16px ;
+    background-color: transparent;
+    border: none;
+    color:#4c6c6c;
+    border-bottom: 1px solid #4c6c6c;
+    padding-bottom: 5px;
+    margin-top: 2.5%;
+}
+
+.address2{
+    margin-left: 28%;
+}
+
+.skill-input input{
+    margin-left: 10px;
+    height: 20px;
+    width: 520px;
+    font-size:16px ;
+    background-color: transparent;
+    border: none;
+    color:#4c6c6c;
+    border-bottom: 1px solid#4c6c6c;
+    padding-bottom: 5px;
+    margin-top: 2.5%;
+}
+
+#lektee{
+    width: 80px;
+}
+
+#moo{
+    width: 40px;
+}
+
+#aumper{
+    width: 150px;
+}
+
+.button-submit{
+    margin-left: 40%;
+}
+
+
+input[type="submit"]{
+    width: 150px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color:  #4c6c6c;
+    color: #e7e5d9;
+    box-shadow:0 0 20px #4c6c6c;
+    border: 2px solid #4c6c6c;
+    cursor: pointer;
+}
+
+.name-input input:focus,.name-input select:focus,
+.birthday-input input:focus,
+.login-want input:focus,
+.peopleidbox input:focus,.phone-input input:focus,
+.skill-input input,.contack-input input,
+.address-input input,.address2 input{
+    outline: none;
+}
+
+input::placeholder{
+    color:#4c6c6c;
+}

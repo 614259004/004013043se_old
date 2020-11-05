@@ -1,0 +1,81 @@
+body{
+    background-color: #4c6c6c;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+form{
+    background-color:  #343840;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 13%;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+h2{
+    font-size: 35px;
+    color: #e7e5d9;
+    margin-left: 7%;
+}
+
+.name-input,.birthday-input,.login-want,.peopleidbox,.phone-input,
+.skill-input,.contack-input,.address-input,.address2,.status-input{
+    display: flex;
+    margin-left: 7%;   
+}
+
+.name-input input,.birthday-input input,
+.login-want input,.peopleidbox input,
+.phone-input input,.contack-input input,
+.address-input input,.address2 input{
+    margin-left: 0px;
+    height: 20px;
+    font-size:16px ;
+    background-color: transparent;
+    border: none;
+    color:#e7e5d9;
+    border-bottom: 1px solid #e7e5d9;
+    padding-bottom: 5px;
+    margin-top: 2.5%;
+}
+
+#password01{
+    margin-left: 20px;
+}
+
+input::placeholder{
+    color: #ceccc2;
+}
+
+.name-input input:focus,.name-input select:focus,
+.birthday-input input:focus,
+.login-want input:focus,
+.peopleidbox input:focus,.phone-input input:focus,
+.skill-input input,.contack-input input,
+.address-input input,.address2 input{
+    outline: none;
+}
+
+input[type="submit"]{
+    width: 110px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color:   #71a6a6;
+    color:   #4c6c6c;
+    box-shadow:0 0 20px   #71a6a6;
+    border: 2px solid #71a6a6;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+.button-submit a{
+    text-decoration: none;
+    color:  #e7e5d9;
+    margin-left: 20px;
+}
+
+.button-submit i{
+    text-decoration: none;
+    color:  #e7e5d9;
+    margin-right: 5px;
+}

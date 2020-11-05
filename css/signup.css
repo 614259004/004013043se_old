@@ -1,0 +1,180 @@
+body{
+    background-color: #343840;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+form{
+    background-color:  #4c6c6c;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 2%;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+h2{
+    font-size: 35px;
+    color: #e7e5d9;
+    margin-left: 7%;
+}
+
+p{
+    color: #e7e5d9;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.input-img img{
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: 10px auto;
+    border-radius: 50%;
+    border: 3px solid #e7e5d9 ;
+}
+
+input[type="file"]{
+    display: none;
+}
+
+.name-input,.birthday-input,.login-want,.peopleidbox,.phone-input,
+.skill-input,.contack-input,.address-input,.address2,.status-input{
+    display: flex;
+    margin-left: 7%;   
+}
+
+.name-input select,.status-input select{
+    margin-left: 10px;
+    height: 20px;
+    font-size:16px ;
+    background-color: transparent;
+    border: none;
+    color: #e7e5d9;
+    border-bottom: 1px solid#e7e5d9;
+    margin-top: 2.5%;
+    outline: none;
+}
+
+.name-input select option,
+.status-input select option{
+    background-color: #343840;
+}
+
+.name-input input,.birthday-input input,
+.login-want input,.peopleidbox input,
+.phone-input input,.contack-input input,
+.address-input input,.address2 input{
+    margin-left: 10px;
+    height: 20px;
+    font-size:16px ;
+    background-color: transparent;
+    border: none;
+    color:#e7e5d9;
+    border-bottom: 1px solid #e7e5d9;
+    padding-bottom: 5px;
+    margin-top: 2.5%;
+}
+
+.address2{
+    margin-left: 17%;
+}
+
+.skill-input input{
+    margin-left: 10px;
+    height: 20px;
+    width: 585px;
+    font-size:16px ;
+    background-color: transparent;
+    border: none;
+    color:#e7e5d9;
+    border-bottom: 1px solid #e7e5d9;
+    padding-bottom: 5px;
+    margin-top: 2.5%;
+}
+
+#name{
+    width: 250px;
+}
+
+#lastname{
+    width: 230px;
+}
+
+#password01{
+    width: 225px;
+}
+
+#lektee{
+    width: 100px;
+}
+
+#moo{
+    width: 50px;
+}
+
+#facebook{
+    width: 220px;
+}
+
+#email{
+    width: 320px;
+}
+
+#aumper{
+    width: 180px;
+}
+
+.button-submit{
+    margin-left: 30%;
+}
+
+input[type="submit"]{
+    width: 110px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: transparent;
+    color:   #e7e5d9;
+    /*box-shadow:0 0 20px #71a6a6;*/
+    border: 2px solid  #e7e5d9;
+    cursor: pointer;
+    transition: .2s;
+    margin-left: 15px;
+}
+
+input[type="submit"]:hover{
+    width: 110px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color:  #e7e5d9;
+    color:   #4c6c6c;
+    box-shadow:0 0 20px  #e7e5d9;
+    border: 2px solid #e7e5d9;
+}
+
+.button-submit a{
+    text-decoration: none;
+    color:  #e7e5d9;
+}
+
+.button-submit i{
+    text-decoration: none;
+    color:  #e7e5d9;
+    margin-right: 5px;
+}
+
+#password,#endyear{
+    margin-left: 10px;
+}
+
+.name-input input:focus,.name-input select:focus,
+.birthday-input input:focus,
+.login-want input:focus,
+.peopleidbox input:focus,.phone-input input:focus,
+.skill-input input,.contack-input input,
+.address-input input,.address2 input{
+    outline: none;
+}
+
+input::placeholder{
+    color: #ceccc2;
+}

@@ -1,0 +1,221 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.left-form{
+    background-color: #343840;
+    width: 70%;
+    height: 100%;
+}
+
+.right-form{
+    background-color: #e7e5d9;
+    width: 30%;   
+}
+
+.right-form form{
+    margin-left: 10%;
+    margin-top: 13%;
+}
+
+.right-form h2{
+    color:  #4c6c6c;
+    margin-left: 10%;
+    margin-top: 15%;
+    font-size: 30px;
+}
+
+.left-form .back-home {
+    margin-left: 20%;
+    margin-top: 7%;
+}
+
+.left-form .back-home a{
+    text-decoration: none;
+    color: #ceccc2;
+}
+
+.left-form .up-data{
+    display: flex;
+    margin-left: 20%;
+    margin-top: 3%;
+}
+
+.input-img img{
+    display: block;
+    width: 150px;
+    height: 150px;
+    /*margin: 10px auto;
+    border-radius: 50%;*/
+    border: 2px solid #ceccc2;
+}
+
+input[type="file"]{
+    display: none;
+}
+
+.left-form .up-data .input-name,
+.left-form .up-data .birthday-idcard {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+
+
+.left-form .up-data .input-name select{
+    margin-left: 10px;
+    height: 20px;
+    font-size:16px ;
+    background-color: transparent;
+    border: none;
+    color: #e7e5d9;
+    border-bottom: 1px solid#e7e5d9;
+    margin-top: 2.5%;
+    outline: none;
+}
+
+.left-form .up-data .input-name select option{
+    background-color: #343840;
+}
+
+.left-form .up-data .input-name input,
+.left-form .up-data .birthday-idcard input,
+.contack-under-data input,.skill-under-data input,.address-under-data input{
+    margin-left: 10px;
+    height: 20px;
+    font-size:16px ;
+    background-color: transparent;
+    border: none;
+    color:#e7e5d9;
+    border-bottom: 1px solid #e7e5d9;
+    padding-bottom: 5px;
+    margin-top: 2.5%;
+}
+
+input{
+    outline: none;
+}
+
+input::placeholder{
+    color: #ceccc2;
+}
+
+#idcard{
+    width: 285px;
+}
+
+.under-data{
+    margin-left: 18.7%;
+    margin-top: 4.5%;
+}
+
+#endyear{
+    width: 110px;
+}
+
+#phone{
+    width: 145px;
+}
+
+#skill{
+    width: 695px;
+    margin-top: 5%;
+}
+
+.address-under-data{
+    margin-top: 4%;
+}
+
+#facebook{
+    width: 150px;
+}
+
+#email{
+    width: 250px;
+}
+
+#lektee{
+    width: 80px;
+}
+
+#moo{
+    width: 40px;
+}
+
+#tambon{
+    width: 150px;
+}
+
+#aumper{
+    width: 170px;
+}
+
+.submit-profile{
+    margin-left: 19.5%;
+    margin-top: 5%;
+}
+
+.submit-profile input{
+    width: 200px;
+    padding: 10px 20px;
+    border: 1.5px solid  #ceccc2;
+    background-color: transparent;
+    color: #ceccc2;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.submit-profile input:hover{
+    width: 200px;
+    padding: 10px 20px;
+    border: 1.5px solid  #ceccc2;
+    background-color: #ceccc2;
+    color: #343840;
+    box-shadow:0 0 20px  #e7e5d9;
+}
+
+.right-form form input{
+    margin-left: 10px;
+    height: 20px;
+    font-size:16px ;
+    background-color: transparent;
+    border: none;
+    color:#71a6a6;
+    border-bottom: 1px solid#4c6c6c;
+    padding-bottom: 5px;
+    margin-top: 2.5%;
+}
+
+.right-form form input::placeholder{
+    color: #7a9999;
+}
+
+.work-data-profile{
+    margin-top: 5%;
+}
+
+.work-data-profile-2{
+    margin-top: 5%;
+}
+
+#jangwad1{
+    margin-top: 8%;
+}
+
+#submitwork{
+    width: 200px;
+    height: 40px;
+    padding: 10px 20px;
+    border: 1.5px solid #71a6a6;
+    background-color: #71a6a6;
+    color: #ceccc2;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow:0 0 20px #71a6a6;
+    margin-top: 10%;
+}
+
